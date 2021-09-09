@@ -1,4 +1,12 @@
 body {
   background-color: #2E3440;
   color: #ECEFF4;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  /* margin: auto;
+  width: 50%; */
+  text-align: center;
 }
