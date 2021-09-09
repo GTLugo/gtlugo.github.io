@@ -5,8 +5,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.centered {
+  margin: auto;
+  width: 50%;
+}
+
 .title {
-  /* margin: auto;
-  width: 50%; */
   text-align: center;
 }
