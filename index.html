@@ -1,14 +1,78 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="styles/main_style.css">
-    <title>gtlugo.io</title>
-  </head>
-  <body>
-    <div class="title centered">
-      <h1>BIG ANIME FOX GIRL TIDDIES</h1>
-      <h2>Wolf girl tiddies too</h2>
-      <p>or even cat girl tiddies</p>
+<html xnlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!--for responsive layout-->
+  <meta name="viewport" content="width=device-width">
+  <!--name and style-->
+  <title>GTLugo | Home</title>
+  <link rel="stylesheet" href="res/styles/style.css"/>
+
+  <script src="res/scripts/SiteHeader.js" type="text/javascript" defer></script>
+  <script src="res/scripts/SiteFooter.js" type="text/javascript" defer></script>
+  <script src="res/scripts/StickyHeader.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+<site-header id="header"></site-header> <!--SiteHeader.js-->
+
+<main class="content" id="homepage">
+  <div class="container image-container">
+    <img src="res/images/ODU_ESports_Primary_Alternate_CMYK.png" alt="ODU Esports Logo" id="odu-esports">
+    <h3 style="text-align: center; font-size:2vw">
+      Gabriel "GTLugo" Lugo
+    </h3>
+    <!--<p style="text-align: center; font-size:2vw">-Esports Player & CS Student-</p>-->
+  </div>
+  <br>
+  <div class="container">
+    <div class="rect-container">
+      <div class="rect">
+        <a href="https://www.odu.edu/life/sports-and-fitness/esports" class="button">
+          <div class="title">
+            <h1>Esports</h1>
+          </div>
+          <div class="caption">
+            <h4 style="text-align: left">
+              Old Dominion Varsity Esports
+            </h4>
+          </div>
+        </a>
+      </div>
+
+      <div class="rect">
+        <a href="https://myanimelist.net/animelist/GTLugo" class="button">
+          <div class="title">
+            <h1>Anime List</h1>
+          </div>
+          <div class="caption">
+            <h4 style="text-align: left">
+              My Anime List
+            </h4>
+          </div>
+        </a>
+      </div>
+
+      <div class="rect">
+        <a href="cs312/assign5.html" class="button">
+          <div class="title">
+            <h1>CS 312</h1>
+          </div>
+          <div class="caption">
+            <h4 style="text-align: left">
+              Internet Concepts Assignments
+            </h4>
+          </div>
+        </a>
+      </div>
     </div>
-  </body>
+  </div>
+</main>
+
+<site-footer></site-footer> <!--SiteFooter.js-->
+</body>
+
 </html>
