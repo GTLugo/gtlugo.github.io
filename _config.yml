@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Gabriel Lugo-Maldonado"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Software developer, indie game designer, and hobbyist artist."
   links:
     - label: "Resume"
       icon: "fas fa-fw fa-link"
