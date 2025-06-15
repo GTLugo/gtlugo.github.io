@@ -1,6 +1,6 @@
 ---
 title: "Hello hello, friends!"
-date: 2025-06-15T21:59:49-04:00
+date: 2025-06-15T6:00:00-04:00
 categories:
   - blog
 tags:
