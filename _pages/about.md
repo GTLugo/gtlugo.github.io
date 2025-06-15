@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I am a software engineer specializing in systems programming and API development.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My favorite thing about API development is creating easy, intuitive designs for developers to use, such as in my Rust crate “Witer.” It takes the older, error-prone Win32 API and redesigns it to be safer and more idiomatic for Rust.
+
+Additionally, I enjoy game architecture and design. Over the years, I’ve written a number of game engine prototypes in C++ and Rust. Of particular interest to me are the rendering and ECS components of game engine design.
+
+Some of my other hobbies also include anime & manga (I love *DanMachi* and *No Game No Life*), vtubers (*FUWAMOCO* are so much fun), and biking.
