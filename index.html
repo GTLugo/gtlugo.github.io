@@ -2,9 +2,72 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+title: "Gabriel Lugo-Maldonado"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/splash.png
+  actions:
+    - label: "GitHub"
+      url: "https://github.com/GTLugo/"
+excerpt: "Software Developer, Game Designer, Artist"
+intro: 
+  - excerpt: "Over the years, I've worked on projects spanning many different topics such as video games, embedded systems, computer graphics, and artificial intelligence. Listed below are a small selection of those projects."
+feature_row:
+  - image_path: assets/images/projects/sudoku.png
+    alt: "sudoku"
+    title: "C++ Sudoku Solver"
+    excerpt: "Sophomore year programming project for *CS480 - Intro to Artificial Intelligence*."
+    url: "https://github.com/GTLugo/sudoku_solving_ai"
+    btn_label: "Learn More"
+  - image_path: assets/images/projects/game360.png
+    alt: "game 360"
+    title: "Unity/C# Game Prototype"
+    excerpt: "Top-down adventure game prototype for *GAME360 - Intro to Game Engines*. Win by exploring the world and defeating the Red Knight."
+    url: "https://github.com/GTLugo/GAME360-Final-Pondering"
+    btn_label: "Learn More"
+  - image_path: assets/images/projects/witer.png
+    alt: "witer"
+    title: "Rust Windowing Library"
+    excerpt: "*Witer*, an iterator-based Win32 window library built in Rust."
+    url: "https://github.com/witer-rs/witer"
+    btn_label: "Learn More"
+feature_row2:
+  - title: "Dioxide OS"
+    excerpt: 'A barebones kernel written in pure Rust.'
+    url: "https://github.com/dioxide-os/dioxide"
+    btn_label: "Learn More"
+  - title: "Godot/Rust Game Prototype"
+    excerpt: 'A team project for *CS410/411W - Professional Workforce Development*.'
+    url: "https://github.com/Gold-Team-ODU/f25-Gold"
+    btn_label: "Learn More"
+  - title: "Win64"
+    excerpt: 'Hand-crated, idiomatic Rust wrappers for the Win32 API'
+    url: "https://github.com/GTLugo/win64-rs"
+    btn_label: "Learn More"
+feature_row3:
+  - title: "Foxy"
+    excerpt: 'A heavily work-in-progress Vulkan renderer. Currently in the middle of a complete rewrite.'
+    url: "https://github.com/GTLugo/foxy"
+    btn_label: "Learn More"
+  - title: "Kon Lang Interpreter"
+    excerpt: 'An incomplete interpreter for my custom language, Kon.'
+    url: "https://github.com/GTLugo/kon-lang"
+    btn_label: "Learn More"
+  - title: "Extra Gunslinger Gear"
+    excerpt: 'The old, messy, horrible code for my popular Terraria mod.'
+    url: "https://github.com/GTLugo/ExtraGunGear"
+    btn_label: "Learn More"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" %}
+
+{% include feature_row id="feature_row3" %}
 
 <!-- bau bau -->
  

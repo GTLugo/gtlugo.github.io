@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 encoding: utf-8
 title: GTLugo
-email: me@gtlugo.com
+email: gabe@lugo.studio
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
@@ -64,8 +64,8 @@ plugins:
 
 author:
   name   : "Gabriel Lugo-Maldonado"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Software developer, indie game designer, and hobbyist artist."
+  avatar : "/assets/images/IMG.png"
+  bio    : "Software Developer / Game Designer / Artist"
   links:
     - label: "Resume"
       icon: "fas fa-fw fa-link"
