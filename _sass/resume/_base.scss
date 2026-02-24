@@ -1,0 +1,358 @@
+@scope (.resume) {
+
+  /* ======= Base ======= */
+  body {
+    font-family: "Roboto", sans-serif;
+    color: $text-color-secondary;
+    background: $base;
+    font-size: 1.4rem;
+    padding: 3rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+
+  a {
+    color: $theme-color;
+
+    &:hover {
+      text-decoration: none;
+      font-weight: bolder;
+      color: lighten($theme-color, 15%);
+    }
+
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  .wrapper {
+    border-radius: 3rem 3rem 3rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background: $background;
+    max-width: 100.0rem;
+    margin: 0 auto;
+    position: relative;
+    @include box-shadow(0rem 2px 4px rgba(0, 0, 0, 0.1));
+  }
+
+  .sidebar-wrapper {
+    border-radius: 3rem 3rem 3rem 3rem;
+    grid-column: span 3;
+    order: $sidebar-order;
+    background: $extra-color;
+    color: $side-text-color;
+
+    a {
+      color: $side-text-color;
+    }
+
+    .profile-container {
+      border-radius: 3rem 3rem 0rem 0rem;
+      padding: 3rem;
+      //background: darken($theme-color, 10%);
+      background: $theme-color;
+      text-align: center;
+      color: $name-color;
+    }
+
+    .name-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    .name {
+      font-size: 3rem;
+      font-weight: 900;
+      padding-bottom: 0.25rem;
+    }
+
+    .surname {
+      font-size: 2.5rem;
+      font-weight: 900;
+      margin: 0;
+    }
+
+    .tagline {
+      color: lighten($theme-color, 40%);
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .profile {
+      margin-bottom: 1.5rem;
+    }
+
+    .avatar {
+      //used for profile image
+      max-width: 10.0rem;
+      margin-bottom: 1.5rem;
+      border: 0rem solid $avatar-color;
+      border-radius: 100%;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-list {
+
+      .fas,
+      .fab,
+      .far {
+        margin-right: 0.5rem;
+        font-size: 1.8rem;
+        vertical-align: middle;
+      }
+
+      li {
+        margin-bottom: 1.5rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .container-block {
+      padding: 3rem;
+    }
+
+    .container-block-title {
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+    }
+
+    .degree {
+      font-size: 1.4rem;
+      margin-top: 0;
+      margin-bottom: 5rem;
+    }
+
+    .education-container {
+      .item {
+        margin-bottom: 1.5rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .meta {
+        color: rgba(256, 256, 256, 0.6);
+        font-weight: 500;
+        margin-bottom: 0rem;
+        margin-top: 0;
+      }
+
+      .time {
+        color: rgba(256, 256, 256, 0.6);
+        font-weight: 500;
+        margin-bottom: 0rem;
+      }
+    }
+
+    .languages-container {
+      .lang-desc {
+        color: rgba(256, 256, 256, 0.6);
+      }
+    }
+
+    .languages-list {
+      margin-bottom: 0;
+
+      li {
+        margin-bottom: 1rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .interests-list {
+      margin-bottom: 0;
+
+      li {
+        margin-bottom: 1rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .main-wrapper {
+    border-radius: 0rem 3rem 3rem 0rem;
+    grid-column: span 7;
+    order: $resume-order;
+    background: $background;
+    padding: 6rem;
+
+    .section-title {
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: 500;
+      color: $theme-color;
+      position: relative;
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+
+    .section {
+      margin-bottom: 6rem;
+    }
+
+    .experiences-section,
+    .recommendations-section,
+    .educations-section {
+      .item {
+        margin-bottom: 3rem;
+      }
+    }
+
+    .upper-row,
+    .second-upper-row {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 0.2rem;
+      display: flex;
+    }
+
+    .job-title,
+    .degree,
+    .cert-title,
+    .recommendation-person {
+      color: $text-color;
+      font-size: 1.6rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 500;
+      flex: 75%;
+    }
+
+    .time,
+    .cert-url {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: $text-grey;
+      flex: 25%;
+    }
+
+    .company,
+    .recommendation-role,
+    .university,
+    .cert-org {
+      margin-bottom: 1rem;
+      color: $text-grey;
+    }
+
+    .project-title {
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      color: $theme-color;
+    }
+
+    .projects-section {
+      .intro {
+        margin-bottom: 3rem;
+      }
+
+      .item {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    .oss-section {
+      .intro {
+        margin-bottom: 3rem;
+      }
+
+      .item {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    .publication-title {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: $text-color;
+      margin-bottom: 1px;
+    }
+
+    .publication-authors {
+      font-style: italic;
+      color: $text-grey;
+      margin-bottom: 1px;
+    }
+
+    .publications-section {
+      .intro {
+        margin-bottom: 3rem;
+      }
+
+      .item {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+
+  .skillset {
+    .item {
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+
+    .level-title {
+      font-size: 1.4rem;
+      margin-top: 0;
+      margin-bottom: 1.2rem;
+    }
+
+    .level-bar {
+      height: 1.2rem;
+      background: $base;
+    }
+
+    .level-bar-inner {
+      height: 1.2rem;
+      background: lighten($theme-color, 15%);
+    }
+  }
+
+  .footer {
+    padding-top: 3rem;
+
+    .copyright {
+      line-height: 1.6;
+      color: $text-color-secondary;
+      font-size: 1.3rem;
+    }
+
+    .fa-heart {
+      color: $heart;
+    }
+  }
+
+}

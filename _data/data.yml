@@ -1,0 +1,237 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: left # position of the sidebar : left or right
+  about: False  # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Gabriel
+  surname: Lugo-Maldonado
+  tagline: Software Engineer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: gabe@lugo.studio
+  phone: 757 918 5394
+  timezone: America/New_York # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: United States of America
+  # website: https://gtlugo.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: gabriel-a-lugo
+  github: GTLugo
+  bluesky: '@gtlugo.com' # Specify your full Bluesky handle
+  twitter: '@GTLugo'
+  codewars: GTLugo
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  languages:
+    title: Languages
+    info:
+    - idiom: English
+      level: Native
+
+    - idiom: Spanish
+      level: Casual
+
+  interests:
+    title: General Interests
+    info:
+    - item: API Development
+      link:
+
+    - item: Game Engine Architecture
+      link:
+
+    - item: Game Design
+      link:
+
+    - item: Anime & Manga
+      link:
+
+    - item: Drawing
+      link:
+
+    - item: Biking
+      link:
+
+  backlink:
+    text: < Back to Main Site
+    link: https://gtlugo.com/
+
+career-profile:
+  title: Summary
+  summary: |
+    7 years experience programming in C++, Rust, Java, and C# on low-level and high-level projects including topics such as embedded systems, OpenGL & Vulkan graphics, and Artificial Intelligence.
+    
+education:
+  title: Education
+  info:
+  - degree: Bachelors in Computer Science
+    university: Old Dominion University
+    time: Aug 2018 - Dec 2025
+    details: |
+      Dean's list for multiple semesters. Studied CS topics including:
+        - Artificial Intelligence
+        - Graphics Programming
+        - Operating Systems Design
+        - Computer Architecture
+        - OOP & Algorithm Design
+        - Agile Development
+
+experiences:
+  title: Relevant Experience
+  info:
+  - role: Software Dev Engineer Intern (L4) 
+    time: May 2023 - July 2023
+    company: Amazon, Irvine
+    details: |
+      Worked under Alexa Devices in QA. Assisted engineers in automating and optimizing their workflow, primarily utilizing Python, Jira, and AWS.
+        - Python
+        - AWS
+        - Jira
+        - Git
+  - role: Tutor, Computer Science
+    time: Sep 2021 - Sep 2023
+    company: Old Dominion University, Norfolk
+    details: |
+      Helped computer science students in their courses.
+        - C++
+        - Java
+        - Unix
+        - Git
+        - Computer Architecture
+        - OOP & Algorithms
+  - role: Tutor, Computational Modeling & Simulation Engineering
+    time: Sep 2019 - May 2020
+    company: Old Dominion University, Norfolk
+    details: |
+      Helped engineering students in their computer science courses. Assisted TA with running labs.
+        - C++
+        - MATLAB
+
+# certifications:
+#   title: Certifications
+#   list:
+#   - name: CV Builder
+#     start: 2020
+#     end: 2021
+#     organization: Microsoft
+#     credentialid: 111-222
+#     credentialurl: www.google.com
+#     credentialname: Google
+#     details: |
+#       Details about cert. Lorem ipsum dolor sit amet, consectetur
+#       adipiscing elit.
+#       Nullam eget orci purus. Nullam ultrices neque nibh.
+#       Aenean fermentum, felis vulputate suscipit accumsan,
+#       sem enim bibendum augue, sed convallis arcu lacus at dui.
+#       Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#       Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#       Praesent venenatis erat non augue suscipit consectetur.
+
+#       Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#       fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#       justo diam viverra velit, sed rhoncus leo leo eu justo.
+#       Suspendisse placerat risus ante, sed porta nisi blandit at.
+
+projects:
+  title: Projects
+  intro: >
+    A collection of some active projects I am most proud of:
+  assignments:
+  - title: Witer
+    link: "https://github.com/witer-rs/witer"
+    tagline: "An iterator-based Win32 Rust library"
+
+  - title: C++ Sudoku AI
+    link: "https://github.com/GTLugo/sudoku_solving_ai"
+    tagline: "A small C++ sudoku solver built for CS480"
+
+  - title: Dioxide OS
+    link: "https://github.com/dioxide-os/dioxide"
+    tagline: "A barebones OS built in Rust"
+
+  - title: Foxy
+    link: "https://github.com/foxy-rs/foxy"
+    tagline: "A primitive Vulkan rendering engine written in Rust"
+
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#   - title: Tempo
+#     link: "#"
+#     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#   - title: Atom
+#     link: "#"
+#     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#   - title: Delta
+#     link: "#"
+#     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#   - title: The Art of Computer Programming
+#     link: "#"
+#     authors: Donald E. Knuth
+#     conference: Addison-Wesley, 1968
+
+#   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#     link: "#"
+#     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#   - title: A syntax directed compiler for Algol 60
+#     link: "#"
+#     authors: Edgar T. Irons
+#     conference: "Comm. ACM 4 (1961), 51–55"
+
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: Yareli Perez
+#     email: perezyareli@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       Alan Doe is a super employee!
+#   - person: Lara Henderson
+#     email: larah@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       I would like to work with Alan Doe again!
+
+#       He is a great employee!
+
+skills:
+  title: Skills & Proficiency
+
+  toolset:
+  - name: Rust
+    level: 98%
+
+  - name: C/C++
+    level: 95%
+
+  - name: Java
+    level: 80%
+
+  - name: Python
+    level: 60%
+
+  - name: HTML/CSS
+    level: 30%
+
+footer: >
+  Based on design by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

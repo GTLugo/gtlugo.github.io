@@ -1,0 +1,10 @@
+{% assign backlink = site.data.data.sidebar.backlink %}
+{% if backlink %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    <a href="{{ backlink.link }}">{{ backlink.text }}</a>
+  </h2>
+
+</div><!--//backlink-->
+{% endif %}
