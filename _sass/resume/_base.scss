@@ -1,12 +1,12 @@
-@scope (.resume) {
+.resume {
 
   /* ======= Base ======= */
-  body {
+  #body {
     font-family: "Roboto", sans-serif;
     color: $text-color-secondary;
     background: $base;
-    font-size: 1.4rem;
-    padding: 3rem;
+    font-size: 0.8rem;
+    padding: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -201,31 +201,29 @@
   }
 
   .main-wrapper {
-    border-radius: 0rem 3rem 3rem 0rem;
     grid-column: span 7;
     order: $resume-order;
-    background: $background;
-    padding: 6rem;
+    padding: 0rem;
 
     .section-title {
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 1rem;
       font-weight: 500;
       color: $theme-color;
       position: relative;
       margin-top: 0;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
     .section {
-      margin-bottom: 6rem;
+      margin-bottom: 3rem;
     }
 
     .experiences-section,
     .recommendations-section,
     .educations-section {
       .item {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
       }
     }
 
@@ -237,12 +235,12 @@
       display: flex;
     }
 
-    .job-title,
-    .degree,
+    .company,
+    .university,
     .cert-title,
     .recommendation-person {
       color: $text-color;
-      font-size: 1.6rem;
+      font-size: 0.8rem;
       margin-top: 0;
       margin-bottom: 0;
       font-weight: 500;
@@ -258,16 +256,16 @@
       flex: 25%;
     }
 
-    .company,
+    .job-title,
     .recommendation-role,
-    .university,
+    .degree,
     .cert-org {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       color: $text-grey;
     }
 
     .project-title {
-      font-size: 1.6rem;
+      font-size: 0.8rem;
       font-weight: 400;
       margin-top: 0;
       margin-bottom: 0.5rem;
@@ -276,26 +274,26 @@
 
     .projects-section {
       .intro {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
       }
 
       .item {
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.8rem;
       }
     }
 
     .oss-section {
       .intro {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
       }
 
       .item {
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.8rem;
       }
     }
 
     .publication-title {
-      font-size: 1.6rem;
+      font-size: 0.8rem;
       font-weight: 400;
       color: $text-color;
       margin-bottom: 1px;
@@ -309,45 +307,45 @@
 
     .publications-section {
       .intro {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
       }
 
       .item {
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.8rem;
       }
     }
   }
 
   .skillset {
     .item {
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.6rem;
       overflow: hidden;
     }
 
     .level-title {
-      font-size: 1.4rem;
+      font-size: 0.7rem;
       margin-top: 0;
-      margin-bottom: 1.2rem;
+      margin-bottom: 0.6rem;
     }
 
     .level-bar {
-      height: 1.2rem;
+      height: 0.6rem;
       background: $base;
     }
 
     .level-bar-inner {
-      height: 1.2rem;
+      height: 0.6rem;
       background: lighten($theme-color, 15%);
     }
   }
 
   .footer {
-    padding-top: 3rem;
+    padding-top: 1rem;
 
     .copyright {
-      line-height: 1.6;
+      line-height: 0.8;
       color: $text-color-secondary;
-      font-size: 1.3rem;
+      font-size: 0.6rem;
     }
 
     .fa-heart {

@@ -1,23 +1,25 @@
 <div class="resume">
-  <div class="wrapper">
-    <div class="main-wrapper">
-      {% include resume/career-profile.html %}
+  <div id="body">
+      <div class="main-wrapper">
+        {% include resume/career-profile.html %}
 
-      {% include resume/education.html %}
+        {% include resume/experiences.html %}
 
-      {% include resume/experiences.html %}
+        {% include resume/education.html %}
 
-      {% include resume/certifications.html %}
+        {% include resume/certifications.html %}
 
-      {% include resume/oss-contributions.html %}
+        {% include resume/oss-contributions.html %}
 
-      {% include resume/publications.html %}
+        {% include resume/publications.html %}
 
-      {% include resume/recommendations.html %}
-    </div>
+        {% include resume/recommendations.html %}
+
+        {% include resume/skills.html %}
+      </div>
+
+    {% include resume/footer.html %}
+
+    {% include resume/scripts.html %}
   </div>
-
-  {% include resume/footer.html %}
-
-  {% include resume/scripts.html %}
 </div>

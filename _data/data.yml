@@ -85,7 +85,7 @@ experiences:
   info:
   - role: Software Dev Engineer Intern (L4) 
     time: May 2023 - July 2023
-    company: Amazon, Irvine
+    company: Amazon
     details: |
       Worked under Alexa Devices in QA. Assisted engineers in automating and optimizing their workflow, primarily utilizing Python, Jira, and AWS.
         - Python
@@ -94,7 +94,7 @@ experiences:
         - Git
   - role: Tutor, Computer Science
     time: Sep 2021 - Sep 2023
-    company: Old Dominion University, Norfolk
+    company: Old Dominion University
     details: |
       Helped computer science students in their courses.
         - C++
@@ -105,7 +105,7 @@ experiences:
         - OOP & Algorithms
   - role: Tutor, Computational Modeling & Simulation Engineering
     time: Sep 2019 - May 2020
-    company: Old Dominion University, Norfolk
+    company: Old Dominion University
     details: |
       Helped engineering students in their computer science courses. Assisted TA with running labs.
         - C++

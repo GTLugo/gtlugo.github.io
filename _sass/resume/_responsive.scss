@@ -1,8 +1,8 @@
-@scope (.resume) {
+.resume {
 
   /* Extra small devices (phones, less than 768px) */
   @media (max-width: 767px) {
-    body {
+    #body {
       padding: 0;
     }
 

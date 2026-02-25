@@ -1,10 +1,10 @@
-@scope (.resume) {
+.resume {
   @media print {
     @page {
       size: A4;
     }
 
-    body {
+    #body {
       font-size: 12pt;
     }
 

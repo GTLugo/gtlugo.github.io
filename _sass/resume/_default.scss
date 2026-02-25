@@ -1,4 +1,4 @@
-@scope (.resume) {
+
   /*
  * Template Name: Orbit - Responsive Resume/CV Template for Developers
  * Version: 1.0
@@ -8,9 +8,8 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 
-  @import "mixins";
-  @import "base";
-  @import "responsive";
-  @import "utilities";
-  @import "print";
-}
+@import "mixins";
+@import "base";
+@import "responsive";
+@import "utilities";
+@import "print";
