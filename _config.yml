@@ -27,7 +27,6 @@ repository: GTLugo/gtlugo.github.io
 twitter_username: GTLugo
 github_username: GTLugo
 minimal_mistakes_skin: dark
-search: true
 
 # Build settings
 markdown: kramdown
