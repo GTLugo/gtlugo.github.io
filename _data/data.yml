@@ -96,7 +96,7 @@ experiences:
   - role: Tutor, Computer Science
     time: Sep 2021 - Sep 2023
     company: Old Dominion University
-    logo: /assets/images/odu.jpg
+    logo: /assets/images/crown.jpg
     details: |
       Helped computer science students in their courses.
         - C++
@@ -108,7 +108,7 @@ experiences:
   - role: Tutor, Computational Modeling & Simulation Engineering
     time: Sep 2019 - May 2020
     company: Old Dominion University
-    logo: /assets/images/odu.jpg
+    logo: /assets/images/crown.jpg
     details: |
       Helped engineering students in their computer science courses. Assisted TA with running labs.
         - C++
