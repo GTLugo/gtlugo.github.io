@@ -222,9 +222,24 @@
     .company-row {
       display: flex;
       align-items: center;
+      margin-right: 1em;
     }
 
     .company-logo {
+      height: 1.6em;
+      width: 1.6em;
+      border-radius: 16px;
+      corner-shape: squircle;
+      margin-right: 0.3em;
+    }
+
+    .university-row {
+      display: flex;
+      align-items: center;
+      margin-right: 1em;
+    }
+
+    .university-logo {
       height: 1.6em;
       width: 1.6em;
       border-radius: 16px;
@@ -246,6 +261,7 @@
       overflow: hidden;
       margin-bottom: 0.2rem;
       display: flex;
+      text-align: right;
     }
 
     .company,

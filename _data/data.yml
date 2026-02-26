@@ -70,6 +70,7 @@ education:
   info:
   - degree: Bachelors in Computer Science
     university: Old Dominion University
+    logo: /assets/images/crown.jpg
     time: Aug 2018 - Dec 2025
     details: |
       Dean's list for multiple semesters. Studied CS topics including:
