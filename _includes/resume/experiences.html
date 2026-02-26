@@ -13,16 +13,16 @@
   <div class="item">
 
     <div class="meta">
+      <img class="company-logo" src="{{ experience.logo }}" alt="">
 
-      <div class="upper-row">
-        <div class="company-row">
-          <img class="company-logo" src="{{ experience.logo }}" alt="">
+      <div class="company-info">
+        <div class="meta-rows">
           <h3 class="company">{{ experience.company }}</h3>
-        </div>
+          <div class="job-title">{{ experience.role }}</div>
+        </div><!--//meta-rows-->
+        
         <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
-      <div class="job-title">{{ experience.role }}</div>
+      </div><!--//company-info-->
     </div><!--//meta-->
 
     {% if experience.details %}

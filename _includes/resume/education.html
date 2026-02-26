@@ -31,16 +31,16 @@
   <div class="item">
 
     <div class="meta">
+      <img class="company-logo" src="{{ graduation.logo }}" alt="">
 
-      <div class="upper-row">
-        <div class="university-row">
-          <img class="university-logo" src="{{ graduation.logo }}" alt="">
+      <div class="company-info">
+        <div class="meta-rows">
           <h3 class="university">{{ graduation.university }}</h3>
-        </div>
-        <div class="time">{{ graduation.time }}</div>
-      </div><!--//upper-row-->
+          <div class="degree">{{ graduation.degree }}</div>
+        </div><!--//meta-rows-->
 
-      <div class="degree">{{ graduation.degree }}</div>
+        <div class="time">{{ graduation.time }}</div>
+      </div><!--//university-info-->
     </div><!--//meta-->
 
     {% if graduation.details %}
