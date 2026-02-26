@@ -219,6 +219,18 @@
       margin-bottom: 3rem;
     }
 
+    .company-row {
+      display: flex;
+      align-items:center;
+    }
+
+    .company-logo {
+      height: 1.6em;
+      border-radius: 16px;
+      corner-shape: squircle;
+      margin-right: 0.3em;
+    }
+
     .experiences-section,
     .recommendations-section,
     .educations-section {
