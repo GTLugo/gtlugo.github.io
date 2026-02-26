@@ -239,9 +239,16 @@
     .company-logo {
       height: 3.2em;
       width: 3.2em;
-      border-radius: 16px;
-      corner-shape: squircle;
+      border-radius: 8px;
+      // corner-shape: squircle;
       margin-right: 0.3em;
+    }
+
+    @supports (corner-shape: squircle) {
+      .company-logo {
+        border-radius: 16px;
+        corner-shape: squircle
+      }
     }
 
     .experiences-section,
