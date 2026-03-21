@@ -21,6 +21,19 @@ $primary-color: #0d9bd3;
 .site-title {
   font-family: "Lugo", sans-serif;
   letter-spacing: 0.1rem;
+  font-size: 1.25rem;
+}
+
+.greedy-nav {
+  a {
+    &.site-logo {
+      
+    }
+
+    &.site-title {
+      margin: 0 0.25rem 0 1rem;
+    }
+  }
 }
 
 .themed {
