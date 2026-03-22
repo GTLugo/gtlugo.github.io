@@ -114,6 +114,12 @@ experiences:
       Helped engineering students in their computer science courses. Assisted TA with running labs.
         - C++
         - MATLAB
+  - role: President
+    time: Sep 2017 - June 2018
+    company: Science National Honor Society, Tallwood HS
+    logo: /assets/images/snhs.png
+    details: |
+      President of the inaugural SNHS chapter at my high school. Presided over meetings and set goals for future presidents and councils.
 
 # certifications:
 #   title: Certifications
@@ -140,26 +146,14 @@ experiences:
 #       justo diam viverra velit, sed rhoncus leo leo eu justo.
 #       Suspendisse placerat risus ante, sed porta nisi blandit at.
 
-projects:
-  title: Projects
-  intro: >
-    A collection of some active projects I am most proud of:
-  assignments:
-  - title: Witer
-    link: "https://github.com/witer-rs/witer"
-    tagline: "An iterator-based Win32 Rust library"
+awards:
+  title: Awards
+  collection:
+  - title: Dean's List
+    tagline: "Maintained high GPA for multiple semesters"
 
-  - title: C++ Sudoku AI
-    link: "https://github.com/GTLugo/sudoku_solving_ai"
-    tagline: "A small C++ sudoku solver built for CS480"
-
-  - title: Dioxide OS
-    link: "https://github.com/dioxide-os/dioxide"
-    tagline: "A barebones OS built in Rust"
-
-  - title: Foxy
-    link: "https://github.com/foxy-rs/foxy"
-    tagline: "A primitive Vulkan rendering engine written in Rust"
+  - title: Second Class
+    tagline: "Boy Scouts of America"
 
 # oss:
 #   title: OSS Contributions
