@@ -1,6 +1,6 @@
 ---
 title: "Trying Something New"
-date: 2025-03-21T20:20:00-04:00
+date: 2026-03-21T20:20:00-04:00
 categories:
   - blog
 tags:
